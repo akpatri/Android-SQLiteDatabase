@@ -92,35 +92,30 @@
 			android:layout_width="wrap_content"
 			android:layout_weight="2"
 			android:text="Insert"
-			android:id="@+id/ins"
 			android:onClick="insert"/>
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			android:layout_weight="2"
 			android:text="Update"
-			android:id="@+id/upd"
 			android:onClick="update"/>
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			android:layout_weight="2"
 			android:text="Delete"
-			android:id="@+id/del"
 			android:onClick="delete"/>
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			android:layout_weight="2"
 			android:text="Retrive"
-			android:id="@+id/ret"
 			android:onClick="retrive"/>
 	</LinearLayout>
 	<Button
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
 		android:text="DeleteTable"
-		android:id="@+id/ret"
 		android:onClick="deleteTable"/>
 	<TextView
 		android:id="@+id/txt"
